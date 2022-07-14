@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <div class="contenedor2">
+        <div id="header2">
+            <div class="imgHeader"></div>
+            <div class="navbar">
+                <ul id="menu">
+                    <li><a href="#">Testimonios</a></li>
+                    <li><a href="#">Soporte</a></li>
+                    <li><a href="#">Soluciónes</a></li>
+                    <li><a href="#">Nosotros</a></li>
+                    <li><a href="#">Bodegas</a></li>
+                    <li><a href="#">Productos</a></li>
+                    <li><a href="#">Eventos</a></li>
+                    <li><a href="#">Chat</a></li>
+                    <li><a href="#">Blogs</a></li>
+                    <li><a href="index.html">Noticias</a></li>
+                    <li><a href="#">Servicios</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="section2">
+
+            <div class="izquierdaCont">
+
+                <div class="card3">
+                    <div>
+                        <h2><span><img src="imagenes/event_icon.gif" alt="icono">Eventos</span></h2>
+                    </div>
+                    <div>
+                        <h3>MAYO 2011</h3>
+
+                        <p>
+                            Se celebra en la Provincia de Mendoza el promer fin de semana de marzo(casi sin
+                            interrupciiones desde 1936) y se trata del homenaje que el hombre le dedica a su
+                            industria principal: la vitivinicola.
+                        </p>
+                        <br>
+                        <br>
+                        <hr
+                            style="width: 150px; margin:auto ; color:white;border-style: dotted; box-shadow: 5px 5px 8px black;">
+                    </div>
+                </div>
+
+                <div class="card4">
+                    <div>
+                        <h2><span><img src="imagenes/service.gif" alt="icono">Glosario</span></h2>
+                    </div>
+                    <div>
+                        <p>
+                            Enologo: <br>
+                            Experto responsable de dirigir y asesorar en el proceso de elaboracion del vino y su
+                            almacen,
+                            Embotellados y comercializacion. Estidia asi mismo el proceso del cultivo de la vidid, asi
+                            como
+                            los suelos aptos para determinados capajes y otros temas vinculados.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="informacion">
+                <div>
+                    <h1>Contactenos</h1>
+                </div>
+                <div class="info">
+                    <br>
+                    <p>Alvear 2701</p>
+                    <br>
+                    <p>Telefono: 4256598</p>
+                    <p>Fax: 4205632</p>
+                    <br>
+                    <p>Horario de atencion: 8:30 a 17hs.</p>
+                    <p>Email: contacto@vinos.com.ar</p>
+                    <br>
+                    <h3>*Campos Obligatorios</h3>
+                </div>
+            </div>
+
+
+            <div id="formulario1">
+                <form action="" method="post" id="formulario"
+                    onsubmit="alert('Felicidades ah enviado satisfactoriamente el formulario');return false">
+
+                    <label for="destinatario" class="destinatario1">Destinatario</label>
+                    <select class="destinatario2" name="destinatario" id="destinatario">
+                        <option>Sr.</option>
+                        <option>Sra.</option>
+                        <option>Empresa.</option>
+                    </select>
+
+                    <br>
+                    <br>
+
+                    <label for="nombre2" id="nombre" class="nombre1">Nombre y apellido</label>
+                    <input type="text" name="nombre" id="nombre2" class="nombre2" onblur="campoVacio1(this)" required>
+                    <span id="campoVacio1"
+                        style="position:absolute ; padding: 3px; color: rgb(244, 244, 250); margin-left: 275px; font-size: 20px;">*</span>
+
+                    <br><br>
+
+                    <label for="razon" class="razon1">Razon Social:</label>
+                    <input type="text" name="razon" id="razon" class="razon2" style="text-transform:uppercase;" value=""
+                        onkeyup="javascript:this.value=this.value.toUpperCase();">
+
+                    <br><br>
+
+                    <label for="mail" class="email1">Email:</label>
+                    <input type="email" class="email2" name="mail" id="mail" placeholder="bodegas@gmail.com" value=""
+                        onkeyup="validarEmail2();" onblur="campoVacio2()" required>
+                    <span id="campoVacio2"
+                        style="position:absolute ; padding: 3px; color: white; margin-left: 350px; font-size: 20px;text-align: center; ">*</span>
+                    <br><br>
+
+                    <label for="telefono" class="telefono1">Telefono:</label><input type="tel" name="telefono"
+                        id="telefono" class="telefono2" pattern="[0-9]{3}-[0-9]{7}"
+                        title="Un número de teléfono válido debe tener 3 dígitos, un guión (-) y siete dígitos más"
+                        required>
+                    <span id="campoVacio3"
+                        style="position:absolute ; padding: 3px; color: rgb(244, 244, 250); margin-left: 332px; font-size: 20px;">*</span>
+                    <br>
+                    <br>
+
+                    <label for="celular" class="celular1">Celular:</label><input type="tel" name="celular" id="celular"
+                        class="celular2" placeholder="Sin 0 al inicio, ni el 15" pattern="[0-9]{3}-[0-9]{7}"
+                        title="Un número de teléfono válido debe tener 3 dígitos, un guión (-) y siete dígitos más"
+                        required><span id="telefono-mensaje"
+                        style="position:absolute ; padding: 3px; color: rgb(244, 244, 250); margin-left: 332px; font-size: 20px;"></span>
+
+                    <br><br>
+
+                    <label for="viacont" class="viacont1">Via de Contacto:</label>
+                    <select class="viacont2" name="viacont" id="viacont">
+                        <option>Email</option>
+                        <option>Celular</option>
+                        <option>Telefono</option>
+                    </select>
+
+                    <br><br>
+
+                    <label for="comentario" class="comentario1">Comentario: </label>
+                    <textarea name="comentario" id="comentario" class="comentario2" rows="13" cols="41" maxlength="300"
+                        placeholder="No exceder los 300 caracteres"></textarea>
+                    <br><br>
+
+                    <div class="botonEnviar">
+                        <button type="submit" class="enviar" id="enviar">Enviar</button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+
+        <hr style="color: white; border: 2px solid white;width: 99.5%;">
+        <hr style="color: black; border: 2px solid black;width: 99.5%;">
+        <div id="footer">
+            <div class="tags">
+                <h4>Testimonio | Soporte | Soluciones | Nosotros | Chat | Productos | Noticias | Contacto</h4>
+            </div>
+            <div class="alumno">
+                <p> &copy;Martin Aaron Lora Jorge</p>
+            </div>
+
+        </div>
+    </div>
+    <script src="main2.js"></script>
+</body>
+
+</html>

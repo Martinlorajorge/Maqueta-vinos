@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Index</title>
+
+</head>
+
+
+<body>
+    <div class="contenedor">
+        <div id="header">
+            <div class="imgHeader"></div>
+            <div>
+                <ul id="menu">
+                    <li><a href="#">Testimonios</a></li>
+                    <li><a href="#">Soporte</a></li>
+                    <li><a href="#">Soluciónes</a></li>
+                    <li><a href="contacto.html">Nosotros</a></li>
+                    <li><a href="#">Bodegas</a></li>
+                    <li><a href="#">Productos</a></li>
+                    <li><a href="#">Eventos</a></li>
+                    <li><a href="#">Chat</a></li>
+                    <li><a href="#">Blogs</a></li>
+                    <li><a href="#">Noticias</a></li>
+                    <li><a href="#">Servicios</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="section">
+            <div class="izquierda">
+                <div>
+                    <table>
+                        <tr>
+                            <td class="tituloProductos">
+                                <h2><span><img src="imagenes/project_icon.gif" alt="icono">Productos</span></h2>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>Las mejores variedades</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><img class="image" src="imagenes/images5.jpg" alt="vinos"></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p> Cata de vinos</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><img class="image" src="imagenes/imagesCAR2P5TK.jpg" alt="cata"></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p> Las mejores bodegas </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><img class="image" src="imagenes/images9.jpg" alt="bodegas"></td>
+                        </tr>
+                    </table>
+
+                    <div id="login2">
+                        <img src="imagenes/login.gif" alt="logueado">
+                    </div>
+
+                    <div class="login" id="login">
+                        <div class="loginTitulo">
+                            <h3>Usuario</h3>
+                        </div>
+                        <div class="loginDato">
+                            <form name="validarLogin" method="post">
+                                <p>
+                                    <label for="usuario">Nombre:</label>
+                                </p>
+
+                                <p>
+                                    <input type="text" name="usuario" id="usuario" onblur="validarNombre(this)"
+                                        required>
+
+                                </p>
+
+                                <p>
+                                    <label for="correo"> Email:</label>
+                                </p>
+
+                                <p>
+                                    <input type="email" name="correo" id="correo" onblur="validarEmail(this)" required>
+                                    <span
+                                        style="position:absolute ; color: rgb(244, 244, 250); margin-top: 30px; background: black;"
+                                        id="correoError"></span>
+                                </p>
+
+
+                                <div class="links">
+                                    <a class="link1" href="contacto.html">Suscribete <span><br></span> ahora</a>
+                                    <a class="link2" type="button" value="login" onclick="validarEnviar(this)"
+                                        href="#"><img src="imagenes/btn_signup2.gif" alt="boton"></a>
+
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="centro">
+
+                <div class="card1">
+                    <div>
+                        <h2><span><img src="imagenes/event_icon.gif" alt="icono">Eventos</span></h2>
+                    </div>
+                    <div>
+                        <h3>MAYO 2011</h3>
+
+                        <p>
+                            Se celebra en la Provincia de Mendoza el promer fin de semana de marzo(casi sin
+                            interrupciiones desde 1936) y se trata del homenaje que el hombre le dedica a su
+                            industria principal: la vitivinicola.
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="card2">
+                    <div>
+                        <h2><span><img src="imagenes/service.gif" alt="icono">Glosario</span></h2>
+                    </div>
+                    <div>
+                        <p>
+                            Enologo: <br>
+                            Experto responsable de dirigir y asesorar en el proceso de elaboracion del vino y su
+                            almacen,
+                            Embotellados y comercializacion. Estidia asi mismo el proceso del cultivo de la vidid, asi
+                            como
+                            los suelos aptos para determinados capajes y otros temas vinculados.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="derecha">
+                <div class="contenedorDerecha">
+
+                    <div>
+                        <h1>Los Mejores </h1>
+                    </div>
+                    <div>
+                        <h3><u>La región vitivinicola en la Argentina se desarrolla entre los 22° y 42° de latitud
+                                sur</u>
+                        </h3>
+                    </div>
+                    <div>
+                        <p class="parrafo1"><b>Santa Florencia</b> Lorem, ipsum dolor sit amet consectetur adipisicing
+                            elit
+                            <b>el BRUT de
+                                Torrontes</b>. Obcaecati praesentium molestiae, ex libero eaque soluta alias quisquam
+                            nisi
+                            culpa fugit quae repellendus nostrum minus doloribus,<b>varietal 100% torrentes riojanos</b>
+                            beatae quia ut dicta accusamus. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            <b>BRUT
+                                de Torrontes</b> Architecto quia suscipit laborum nam, delectus, eos ea ipsum, similique
+                            animi odio vitae perspiciatis dicta harum nostrum dolorum praesentium qui blanditiis esse!
+                        </p>
+                    </div>
+                    <div class="cajaRoja">
+                        <h3>Comprar vino significa saber elegir el vino de acuerdo a los gustos de cada consumidor</h3>
+                    </div>
+                    <div>
+                        <p class="parrafo2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat maxime
+                            quis,
+                            molestiae quia
+                            omnis ad dolores ratione voluptates quibusdam nulla sequi quod veritatis in qui excepturi,
+                            aut
+                            dolore nam eum.</p>
+                    </div>
+                    <div class="cajas">
+                        <div class="caja1">
+                            <div>
+                                <h4>Tipo de vinos</h4>
+                            </div>
+                            <div class="caja1a">
+                                <ul>
+                                    <li>
+                                        <p><span><img src="imagenes/arrow.gif" alt="flecha"></span> Cepas Blancas</p>
+                                    </li>
+                                    <li>
+                                        <p><span><img src="imagenes/arrow.gif" alt="flecha"></span> Blends</p>
+                                    </li>
+                                    <li>
+                                        <p><span><img src="imagenes/arrow.gif" alt="flecha"></span> Cepas Tintas</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="caja2">
+                            <div>
+                                <h4>Nuestra Historia</h4>
+                            </div>
+                            <div class="caja2a">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium explicabo
+                                    quaerat,
+                                    assumenda accusantium accusamus, commodi quia excepturi in tempore dolores fugit
+                                    ratione
+                                    voluptatem sequi facilis necessitatibus, quo enim eveniet sapiente?<span><a
+                                            href="#">mas...</a></span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr style="color: white; border: 2px solid white;width: 99.5%;">
+        <hr style="color: black; border: 2px solid black;width: 99.5%;">
+
+        <div id="footer">
+            <div class="tags">
+                <h4>Testimonio | Soporte | Soluciones | Nosotros | Chat | Productos | Noticias | Contacto</h4>
+            </div>
+            <div class="alumno">
+                <p> &copy;Martin Aaron Lora Jorge</p>
+            </div>
+
+        </div>
+
+
+    </div>
+    <script src="main.js"></script>
+
+</body>
+
+</html>

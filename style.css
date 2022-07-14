@@ -1,0 +1,505 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+	height: auto;
+	width: 100%;
+	margin: auto;
+	background: black;
+}
+
+.contenedor {
+	width: 900px;
+	margin: auto;
+}
+
+/* ---------------------------HEADER--------------------------- */
+
+#header {
+	background-image: url(imagenes/header.jpg);
+	background-size: 100% 310px;
+	background-repeat: no-repeat;
+	height: 310px;
+	width: 100%;
+}
+
+#header2 {
+	background-image: url(imagenes/headerinside.jpg);
+	background-size: 100% 310px;
+	background-repeat: no-repeat;
+	height: 310px;
+	width: 100%;
+}
+
+ul {
+	list-style: none;
+}
+
+#menu {
+	width: 100%;
+}
+
+#menu li a {
+	background-color: rgb(37, 37, 37);
+	color: rgb(206, 206, 206);
+	padding-block: 10px;
+	display: block;
+	text-decoration: none;
+	margin-top: 290px;
+	border: 0.02px solid white;
+	box-shadow: 5px 10px 30px rgb(0, 0, 0);
+	font-size: 0.5rem;
+}
+#menu li a:hover {
+	color: rgb(37, 37, 37);
+	background-color: rgb(206, 206, 206);
+}
+#menu li {
+	float: left;
+	text-align: center;
+	width: 9.09%;
+}
+
+/* ---------------------------SECION izquierda INDEX--------------------------- */
+
+#section {
+	width: 100%;
+	height: 850px;
+	background-color: rgb(105, 0, 0);
+	align-items: center;
+}
+
+.izquierda {
+	float: left;
+	height: 800px;
+	width: 25%;
+	color: white;
+}
+
+.izquierda div table {
+	width: 100%;
+	height: 75%;
+	padding: 25px;
+}
+
+.tituloProductos {
+	text-align: center;
+	padding-top: 25px;
+}
+
+.izquierda div table tr {
+	width: 100%;
+}
+.izquierda div table tr p {
+	padding-block: 10px;
+	font-size: 0.8rem;
+}
+
+.izquierda div table tr .image {
+	width: 100%;
+	height: 110px;
+}
+
+#login2 {
+	display: none;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#login2 img {
+	width: 100%;
+}
+.login {
+	width: 100%;
+	display: block;
+	margin: auto;
+}
+
+.loginTitulo {
+	margin: auto;
+	width: 80%;
+	background: rgb(146, 40, 40);
+}
+.loginTitulo h3 {
+	padding-left: 15px;
+	padding-block: 5px;
+}
+.loginDato {
+	margin: auto;
+	width: 80%;
+	background: rgb(75, 0, 0);
+	height: 180px;
+}
+
+.loginDato form p {
+	padding-block: 5px;
+	margin-left: 38px;
+}
+
+.loginDato form p input {
+	padding: 5px;
+	margin-right: 25px;
+	margin-bottom: 10px;
+	width: 80%;
+}
+
+.loginDato form .links {
+	padding: 5px 20px;
+	margin-top: 35px;
+}
+
+.loginDato form .links .link1 {
+	float: left;
+	color: grey;
+	margin-left: 10px;
+	font-size: 10px;
+}
+.loginDato form .links .link1:hover {
+	color: white;
+}
+.loginDato form .links .link2 {
+	float: right;
+	margin-right: 5px;
+}
+/* ----------------------------------CENTRO----------------------------------------------------------- */
+.centro {
+	float: left;
+	height: 800px;
+	width: 25%;
+	color: white;
+}
+
+.card1 {
+	width: 100%;
+	background: rgb(75, 0, 0);
+	text-align: center;
+	height: 382px;
+	box-shadow: 5px 5px 5px rgb(32, 0, 0);
+}
+
+.centro .card1 div h2 {
+	padding-top: 55px;
+	padding-bottom: 30px;
+}
+
+.centro .card1 div h3 {
+	background: rgb(146, 40, 40);
+	color: rgb(187, 81, 81);
+	margin: auto;
+	width: 70%;
+	padding: 5px;
+}
+
+.centro .card1 div p {
+	width: 70%;
+	padding-top: 40px;
+	margin: auto;
+	line-height: 20px;
+	font-size: 0.8rem;
+	color: rgb(165, 125, 125);
+}
+
+.card2 {
+	width: 100%;
+	background: rgb(75, 0, 0);
+	height: 382px;
+	margin-top: 20px;
+	box-shadow: 5px 5px 5px rgb(32, 0, 0);
+}
+
+.card2 h2 {
+	text-align: center;
+	padding-top: 30px;
+}
+.card2 p {
+	width: 70%;
+	padding-top: 40px;
+	margin: auto;
+	line-height: 20px;
+	font-size: 0.8rem;
+	color: rgb(165, 125, 125);
+}
+
+/* ------------------------------DERECHA-------------------------- */
+
+.derecha {
+	float: left;
+	height: 800px;
+	width: 49%;
+}
+
+.contenedorDerecha {
+	padding: 30px;
+}
+
+.contenedorDerecha div h1 {
+	color: white;
+	padding-bottom: 15px;
+}
+
+.contenedorDerecha div h3 {
+	color: rgb(145, 100, 100);
+}
+
+.contenedorDerecha div .parrafo1 {
+	margin-top: 30px;
+	margin-bottom: 20px;
+	line-height: 20px;
+}
+
+.cajaRoja {
+	background: rgb(75, 0, 0);
+	padding: 15px;
+}
+
+.contenedorDerecha div .parrafo2 {
+	margin-top: 30px;
+	margin-bottom: 40px;
+	line-height: 20px;
+}
+
+.cajas {
+	width: 100%;
+}
+
+.cajas .caja1 {
+	float: left;
+	width: 48%;
+	height: 140px;
+	border: 1px solid gray;
+}
+
+.cajas .caja1 div h4 {
+	background: black;
+	color: white;
+	padding: 10px;
+}
+
+.caja1a {
+	background: gray;
+	height: 102px;
+	color: white;
+	text-align: justify;
+}
+
+.caja1a ul li {
+	width: 100%;
+	list-style: none;
+	margin-left: 20px;
+	padding-top: 15px;
+	font-size: 0.7rem;
+}
+
+.cajas .caja2 {
+	float: right;
+	width: 48%;
+	height: 140px;
+	border: 1px solid gray;
+}
+.cajas .caja2 div h4 {
+	background: black;
+	color: white;
+	padding: 10px;
+}
+
+.caja2a {
+	background: gray;
+	height: 72px;
+	color: white;
+	text-align: justify;
+	padding: 15px;
+	font-size: 0.55rem;
+}
+
+/* --------------------------------FOOTER------------------------- */
+
+#footer {
+	width: 100%;
+	height: 100px;
+	background: rgb(32, 0, 0);
+	color: rgb(94, 86, 86);
+}
+
+.tags {
+	text-align: justify;
+	width: 70%;
+	padding: 15px;
+	font-size: 0.6rem;
+}
+
+.alumno {
+	width: 100%;
+	text-align: center;
+}
+
+/* --------------------PAG CONTAGTOS--------------------------- */
+.contenedor2 {
+	width: 900px;
+	margin: auto;
+}
+
+#section2 {
+	width: 100%;
+	height: 900px;
+	background-color: rgb(105, 0, 0);
+	align-items: center;
+}
+
+.izquierdaCont {
+	float: left;
+	margin-left: 30px;
+	height: 800px;
+	width: 25%;
+	color: white;
+}
+
+.card3 {
+	width: 100%;
+	background: rgb(75, 0, 0);
+	text-align: center;
+	height: 382px;
+	font-size: 0.7rem;
+	box-shadow: 5px 5px 5px rgb(32, 0, 0);
+}
+
+.izquierdaCont .card3 div h2 {
+	padding-top: 35px;
+	padding-bottom: 30px;
+	font-size: 1.5rem;
+}
+
+.izquierdaCont .card3 div h3 {
+	background: rgb(146, 40, 40);
+	color: rgb(187, 81, 81);
+	margin: auto;
+	width: 70%;
+	padding: 5px;
+}
+
+.izquierdaCont .card3 div p {
+	width: 70%;
+	padding-top: 40px;
+	margin: auto;
+	line-height: 20px;
+	font-size: 0.8rem;
+	color: rgb(165, 125, 125);
+}
+
+.card4 {
+	width: 100%;
+	background: rgb(75, 0, 0);
+	height: 382px;
+	margin-top: 20px;
+	box-shadow: 5px 5px 5px rgb(32, 0, 0);
+}
+
+.card4 h2 {
+	text-align: center;
+	padding-top: 30px;
+}
+.card4 p {
+	width: 70%;
+	padding-top: 40px;
+	margin: auto;
+	line-height: 20px;
+	font-size: 0.8rem;
+	color: rgb(165, 125, 125);
+}
+/* ---------------------------------INFORMACION DE CONTACTO---------------------------------- */
+
+.informacion {
+	padding: 50px;
+	float: left;
+	width: 60%;
+}
+
+.informacion div h1 {
+	color: white;
+}
+
+.info {
+	color: rgb(165, 125, 125);
+}
+
+.info h3 {
+	color: white;
+}
+
+/* --------------------------------FORMULARIO DE REGISTRO------------------- */
+
+#formulario1 {
+	float: left;
+	width: 68%;
+	height: 500px;
+	color: white;
+	font-size: 0.9rem;
+	padding: 10px;
+}
+
+#formulario1 form label {
+	float: left;
+	margin-left: 50px;
+}
+
+#formulario1 form select,
+textarea,
+input {
+	float: right;
+}
+
+#formulario1 form textarea {
+	font-size: 1rem;
+}
+
+#formulario1 form input:focus {
+	background: greenyellow;
+}
+#formulario1 form select:focus {
+	background: greenyellow;
+}
+#formulario1 form textarea:focus {
+	background: greenyellow;
+}
+.destinatario2,
+.viacont2 {
+	width: 250px;
+	margin-right: 180px;
+}
+
+.nombre2,
+.razon2,
+.email2,
+.telefono2,
+.celular2 {
+	width: 246px;
+	margin-right: 180px;
+}
+.comentario2 {
+	margin-right: 80px;
+}
+
+.botonEnviar {
+	margin-top: 150px;
+	width: 100%;
+	align-items: center;
+}
+
+.enviar {
+	margin-top: 15px;
+	margin-left: 280px;
+	padding: 3px 5px 3px 5px;
+	border: 1px solid white;
+	color: white;
+	background: rgb(228, 72, 72);
+	border-radius: 2px;
+	box-shadow: 5px 5px 10px black;
+	cursor: pointer;
+}
+
+.enviar:hover {
+	background: rgb(114, 0, 0);
+}
